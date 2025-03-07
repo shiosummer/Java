@@ -18,5 +18,6 @@ public class 体重分析 {
         } else {
             System.out.println("体重正常，注意保持");
         }
+        sc.close();
     }
 }

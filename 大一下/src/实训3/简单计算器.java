@@ -27,5 +27,6 @@ public class 简单计算器 {
             default:
                 System.out.println("您输入的操作字符有误");
         }
+        sc.close();
     }
 }

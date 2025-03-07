@@ -20,5 +20,6 @@ public class 成绩等级 {
         }else {
             System.out.println("您所输入的成绩不在0~100之间");
         }
+        sc.close();
     }
 }

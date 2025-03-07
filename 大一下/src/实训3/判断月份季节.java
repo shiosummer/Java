@@ -1,7 +1,5 @@
 package 实训3;
-
 import java.util.Scanner;
-
 public class 判断月份季节 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -31,5 +29,6 @@ public class 判断月份季节 {
             default:
                 System.out.println("输入值不是一个正确的月份");
         }
+        sc.close();
     }
 }
