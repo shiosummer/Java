@@ -1,17 +1,15 @@
 package 实训4;
 
-class 金字塔2 {
+public class 图形1 {
     public static void main(String[] args) {
-        for (int i = 1; i <= 5; i++) {
-            for (int j = 5; j > i; j--) {
+        for (int i = 0; i <= 8; i++) {
+            for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
-            for (int k=1;k<=2*i-1;k++){
+            for (int k = 15; k >= 2*i-1; k--) {
                 System.out.print("*");
             }
             System.out.println();
         }
     }
-
 }
-
