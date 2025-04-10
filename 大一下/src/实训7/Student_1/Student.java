@@ -1,4 +1,4 @@
-package 实训7.Student;
+package 实训7.Student_1;
 
 public class Student {
     private String StudentName;
