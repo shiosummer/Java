@@ -1,11 +1,12 @@
 package 实训8_类的继承.Animal;
 
 public class Animal {
+    public Object printAnimalType;
     protected String name;
     protected String color;
     protected int footNumber;
 
-    public Animal() {
+    public Animal(String 动物) {
     }
 
     public Animal(String name, String color, int footNumber) {

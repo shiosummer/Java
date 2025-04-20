@@ -9,6 +9,7 @@ public class fish extends Animal {
     }
 
     public fish (){
+        super("动物");
     }
 
     @Override
